@@ -1,0 +1,135 @@
+html {
+  scroll-behavior: smooth 0.5s;
+}
+
+body{
+  padding-top: 70px;
+}
+
+#navbar {
+  transition: 0.8s;
+  padding: 20px;
+}
+
+#navbar.scrolled{
+  padding: 1px;            
+  background-color: rgba(0,0,0,0.9); 
+}
+
+.nav-link:hover {
+  transform: translateY(-3px);
+  border-bottom: solid #f39f04;
+  color: white;
+  box-shadow: 0.4px rgba(0,0,0,0.9);
+}
+
+.nav-link {
+  color: white;
+  transition: 0.5s step-start;
+  border-bottom: solid transparent;
+
+}
+
+#linkcanvas{
+      transition: 0.5s ease-in-out;
+
+}
+
+#linkcanvas:hover{
+     transform: translateY(-3px);
+     box-shadow: 0.4px rgba(0,0,0,0.9);
+}
+
+#linkcanvasdpdown{
+
+      transition: 0.5s ease-in-out;
+}
+
+#linkcanvasdpdown:hover{
+
+     transform: translateY(-3px);
+     box-shadow: 0.4px rgba(0,0,0,0.9);
+}
+
+#inicio img{
+  border-radius: 8px;
+  max-height: 800px;
+}
+
+#conheca{
+  font-style: none;
+}
+
+#fotocurso{
+  border-radius:1px ;
+}
+
+.card{
+  margin-top: 14px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  border: solid #f39f04;
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+#sobre{
+  padding-bottom: 5px;
+}
+
+form{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  max-width:400px;
+}
+
+
+input, textarea{
+  padding:20px 200pxpx;
+  border:solid 1px #5c5c5c;
+  border-radius:5px;
+  outline:none;
+}
+
+
+
+#buttonform{
+
+
+  border:none;
+  padding:12px;
+  cursor:pointer;
+  border-radius:5px;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+
+#buttonform:hover{
+  transform:scale(1.05);
+}
+
+#cardcurso{
+  margin: 20px;
+  
+}
+#cardcurso:hover{
+transform:scale(1.1);
+  
+}
+
+.quadro{
+    border-radius: solid 8px #f39f04;
+}
+
+.btn{
+  transition: ease 0.3;
+}
+
